@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #050505;
+  --card: #111111;
+
+  --red: #ff003c;
+  --red-dark: #7a001f;
+
+  --text: #ffffff;
+}
+
+body {
+  background: #050505;
+  color: white;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+  background:
+    radial-gradient(circle at top, #70001255, transparent 45%),
+    radial-gradient(circle at bottom, #33000055, transparent 35%);
+
+  z-index: -2;
+}
+body::after {
+  content: "";
+
+  position: fixed;
+
+  inset: 0;
+
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+
+  background-size: 50px 50px;
+
+  opacity: 0.25;
+
+  z-index: -1;
+}

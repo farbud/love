@@ -22,7 +22,7 @@ export default function Intro({ onFinish }: IntroProps) {
           <Typewriter
             words={[
               "Hey...",
-              "I made something just for you Bahar.",
+              "I made something just for you .",
               "Tap anywhere ❤️",
             ]}
             loop={1}

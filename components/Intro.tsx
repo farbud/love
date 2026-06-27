@@ -21,8 +21,8 @@ export default function Intro({ onFinish }: IntroProps) {
         <h1 className="text-5xl font-bold text-white md:text-7xl">
           <Typewriter
             words={[
-              "Hey...",
-              "I made something just for you .",
+              "Hey Bahar🌷🌸💐...",
+              "I made something just for you Bahar.",
               "Tap anywhere ❤️",
             ]}
             loop={1}
